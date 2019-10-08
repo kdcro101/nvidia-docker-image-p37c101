@@ -1,0 +1,1 @@
+docker run -d --restart unless-stopped --gpus all -h cuda -v projects:/home/dev/projects --entrypoint /bin/bash nvidia-p37c10 /script/start

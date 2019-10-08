@@ -1,0 +1,13 @@
+#!/bin/bash
+ 
+FILE=/usr/local/bin/nvtop
+if [ -f "$FILE" ]; then
+    echo "$FILE exist"
+else 
+   /script/install-nvtop
+fi
+
+source /root/.bashrc
+sudo /usr/sbin/sshd
+sleep infinity
+
